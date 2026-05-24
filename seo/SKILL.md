@@ -15,7 +15,9 @@ Do not promise rankings, indexing, traffic, or inclusion in AI Overviews / AI Mo
 
 For current or precise advice, verify against Google Search Central before answering. Start from `references/google-search-doc-map.md`, then open the relevant Google documentation pages. Prefer official Google Search Central pages over blogs, tool-vendor checklists, or anecdotal SEO advice.
 
-Use non-Google sources only for competitive examples, market research, SERP observations, or user-provided data; keep Google docs as the normative source for recommendations.
+Use non-Google sources only for competitive examples, market research, SERP observations, practitioner workflows, or user-provided data; keep Google docs as the normative source for recommendations.
+
+Third-party practitioner material is supplemental only. Never let it replace, override, weaken, or reinterpret the Google Search Central main framework. If a practitioner tactic conflicts with Google Search Central, reject or reframe the tactic. If it is not covered by Google docs, label it as an experimental or supplemental workflow and include validation steps.
 
 ## Workflow
 
@@ -25,6 +27,7 @@ Use non-Google sources only for competitive examples, market research, SERP obse
    - technical: crawl/indexing, robots.txt, sitemap, canonical, redirects, JavaScript SEO, mobile, page metadata
    - appearance: title links, snippets, images, videos, structured data, favicons, Discover, AI features
    - analytics: Search Console, traffic drop diagnosis, GA/Search Console comparison, Trends research
+   - demand research: search syntax, competitor/source tracing, trend mining, keyword discovery, pain-point validation, audience segmentation
    - vertical: ecommerce, international/multilingual, explicit content, local/business details
 
 2. Gather the minimum context:
@@ -40,14 +43,20 @@ Use non-Google sources only for competitive examples, market research, SERP obse
    - debugging: Search Console, traffic drops, search operators, abuse/security issues
    - vertical guides: ecommerce, international/multilingual, explicit content
 
-4. Produce the deliverable in the format the user requested. If no format is requested, choose one:
+4. Add supplemental practitioner workflows only after the Google baseline is clear:
+   - use `references/practitioner-supplements.md` for demand mining, competitor research, GSC-driven page expansion, GEO traffic observation, and tool-assisted workflows
+   - present these as optional experiments, not official Google requirements
+   - include risk notes when a tactic can drift into scaled low-value content, keyword stuffing, doorway pages, or manipulative link behavior
+
+5. Produce the deliverable in the format the user requested. If no format is requested, choose one:
    - audit: prioritized table with issue, evidence, impact, fix, owner, effort, validation method
    - content rewrite: revised copy plus short rationale and on-page SEO checklist
    - technical implementation: exact tags/files/config examples plus validation steps
    - strategy: phased roadmap with quick wins, structural work, content work, measurement plan
+   - demand research: opportunity table with source, user intent, pain point, competition signal, content/product angle, risk, and validation method
 
-5. Include validation steps:
-   - specify how to verify the change in Search Console, URL Inspection, Rich Results Test, PageSpeed Insights, `site:` checks, crawl tests, or log/server checks as appropriate
+6. Include validation steps:
+   - specify how to verify the change in Search Console, URL Inspection, Rich Results Test, PageSpeed Insights, `site:` checks, crawl tests, log/server checks, SERP observation, or analytics as appropriate
    - define expected observation windows; some changes may take weeks or months to show effects
 
 ## Quality rules
@@ -60,6 +69,7 @@ Use non-Google sources only for competitive examples, market research, SERP obse
 - Prefer descriptive URLs, crawlable links, clear titles/headings, useful alt/link text, canonical consistency, and accessible page resources.
 - For traffic drops, separate technical incidents, seasonality, demand shifts, ranking updates, manual/security issues, and content quality problems.
 - Avoid spammy tactics: doorway pages, scaled low-value content, keyword stuffing, cloaking, hidden text, manipulative links, scraped or thin affiliate content, and misleading automation.
+- For practitioner tactics, separate discovery from execution: use tools and competitor research to find user needs, then build genuinely useful pages or products instead of copying competitors or mass-producing variants.
 
 ## Reusable outputs
 
@@ -99,3 +109,4 @@ When giving implementation guidance:
 
 - `references/google-search-doc-map.md`: Google Search Central documentation map, source priorities, and task-to-doc routing.
 - `references/checklists.md`: compact audit, content, technical, GEO, and debugging checklists.
+- `references/practitioner-supplements.md`: optional practitioner workflows for demand discovery, competitor research, GSC-driven expansion, and GEO observation. Use only as a supplement to Google Search Central.
